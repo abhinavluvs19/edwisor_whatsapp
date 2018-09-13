@@ -1,10 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="chat_view.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.1/collection/icon/icon.css">
+    <title>Chat View</title>
 </head>
 <body>
-$END$
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">WhatsApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="unread.html">Unread</a>
+            </li>
+            <li class="nav-item active">
+                <a href="chat_view.html" class="nav-link">Chat View <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile_pic.html">Profile Picture</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row mt-3 chat-heading">
+        <div class="col-2 mt-3 mb-3">
+            <a href="index.html"><img src="profile.jpg" class="img rounded-circle ml-1" alt=""></a>
+        </div>
+        <div class="col-10 pt-4 mb-3 pl-5">
+            <h5>Priyanka</h5>
+            <small class="text-muted ml-2">10 mins away...</small>
+        </div>
+    </div>
+
+    <div>
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Hey, How are you???</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">I'm good. What about you???</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem enim ex excepturi id inventore ipsam labore molestiae natus, perspiciatis possimus quae, quaerat repellat sapiente sequi sint tenetur veritatis. Harum, maxime!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nisi rerum sed. A atque delectus enim eveniet minima molestiae nam perspiciatis porro possimus praesentium quam ratione rerum sequi, tempore, ut.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur dolor doloremque in minima non quas quidem, tempore temporibus vitae? A atque doloribus ex facilis nemo nihil quae, sunt suscipit!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, non, qui? Accusamus accusantium beatae, blanditiis, culpa dolores eum exercitationem fuga impedit iure mollitia quas, quod recusandae sint tenetur unde voluptatum!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor, enim libero molestias suscipit tempora veritatis vero. Assumenda corporis culpa maxime mollitia necessitatibus praesentium quia reprehenderit soluta totam vel. Est.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur, cum deserunt dignissimos distinctio doloremque ducimus, eius eligendi et inventore maiores nisi optio, rem sit soluta tempore unde voluptas voluptates!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consequuntur distinctio dolore earum enim libero molestias nulla omnis optio quae quibusdam quidem quisquam recusandae sunt temporibus vel velit, voluptatum.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque cupiditate dolores labore modi nemo, quaerat reiciendis similique? Beatae ex fugiat libero nam necessitatibus nostrum nulla omnis optio ratione reprehenderit?</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eveniet exercitationem impedit nesciunt nihil odit praesentium quam quo reprehenderit sapiente. Aspernatur assumenda enim hic inventore itaque magni, quam veniam veritatis.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem debitis dignissimos esse est et expedita fugiat in iste laborum modi numquam possimus quia quis quod, reprehenderit sit, tenetur unde!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda blanditiis corporis deserunt dolor expedita magni maiores, nemo nulla provident. Architecto cumque illo odio odit praesentium! Atque pariatur similique temporibus.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur ducimus eaque incidunt ipsa iste minus omnis perspiciatis totam! Atque dolor error eveniet odit veritatis? At magni modi quod?</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-chat m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis esse eum quasi sapiente tempore? Eaque harum incidunt inventore maiores nemo nostrum, quibusdam quisquam reiciendis rerum saepe suscipit tempore veritatis voluptatem?</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="card bg-dark col-6" style="width: 30rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aperiam, consequuntur dolore enim eos ex facilis fugiat, itaque nesciunt numquam pariatur porro praesentium quisquam repellendus sapiente tempore? Totam.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-5 m-3">
+            <div class="col-11 px-0">
+                <input type="text" class="form-control d-inline px-0" placeholder="Your message...">
+            </div>
+            <div class="col-1 pl-2">
+                <span class="send-icon align-center"><ion-icon name="send" style="zoom:2.0;"></ion-icon></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container-fluid">
+        <span class="text-muted"><p class="text-center">&copy; Created by Abhinav Sharma 2018</p></span>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@4.4.1/dist/ionicons.js"></script>
 </body>
 </html>

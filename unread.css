@@ -1,0 +1,42 @@
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+.navbar-nav {
+    margin-right: 1rem;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+th,
+td {
+    letter-spacing: 1px;
+}
+
+.footer {
+    height: 60px;
+}
+
+.footer p {
+    padding-top: 1%;
+    color: #333333;
+}
+
+.unread-chat {
+    background: #e67e22;
+    color: white;
+}
+
+.unread-chat:hover {
+    color: black;
+}
+
+.unread-chat th,
+.unread-chat td {
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
